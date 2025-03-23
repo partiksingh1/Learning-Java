@@ -1,5 +1,13 @@
 package com.conceptandcoding;
 import java.sql.*;
+/*
+1) Load the jdbc driver
+2) Establish a connection
+3) Create a statement
+4) Execute a query
+5) Close the connection
+*/
+
 public class DemoClass {
     public static void main(String[] args) {
         String url = "jdbc:mysql://127.0.0.1:3306/learningJ";
